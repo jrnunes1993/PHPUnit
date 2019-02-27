@@ -1,7 +1,4 @@
 # PHPUnit [![N|Solid](https://cdn-images-1.medium.com/max/20/1*RPgZ7cp4H77ldoLasm7ueA.png)](https://phpunit.de)
-Meu primeiro teste unitário com PHPUnit.
-
-
 
 Instalando o PHPUnit utilizando composer:
 
