@@ -1,7 +1,7 @@
 <?php
 namespace CodeExperts\Aritmetico;
 
-class Soma{
+class Subtracao{
     private $num1;
     private $num2;
 
@@ -21,9 +21,9 @@ class Soma{
         $this->num2=$num2;
     }
 
-    public function somar()
+    public function subtrair()
     {
-        return $this->num1 + $this->num2;
+        return $this->num1 - $this->num2;
     }
 
 }
