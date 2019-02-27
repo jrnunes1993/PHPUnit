@@ -21,3 +21,10 @@ $./vendor/bin/phpunit --version
 PHPUnit 8.0.4 by Sebastian Bergmann and contributors.
 
 ```
+
+
+Classes:
+  - Soma 
+  - Subtração
+  - Divisão
+  - Multiplicação
