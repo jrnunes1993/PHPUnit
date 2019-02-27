@@ -18,6 +18,21 @@ $./vendor/bin/phpunit --version
 PHPUnit 8.0.4 by Sebastian Bergmann and contributors.
 
 ```
+Executando o PHPUnit:
+
+```sh
+
+$./vendor/bin/phpunit
+PHPUnit 8.0.4 by Sebastian Bergmann and contributors.
+
+
+Time: 16 ms, Memory: 2.00 MB
+
+No tests executed!
+
+
+```
+
 
 
 Classes:
