@@ -10,6 +10,7 @@ class SomaTest extends TestCase{
         $soma->setNum1 (10);
         $soma->setNum2 (20);
         $this->assertEquals(30, $soma->somar());
+
     }
 
 }
