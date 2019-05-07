@@ -7,19 +7,18 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Issue3107;
 
-use PHPUnit\Framework\TestCase;
-
-class Issue3107Test extends TestCase
+final class FinalClass
 {
-    public static function setUpBeforeClass(): void
+    private $value;
+
+    public function __construct($value)
     {
-        does_not_exist();
+        $this->value = $value;
     }
 
-    public function testOne(): void
+    public function value()
     {
-        $this->assertTrue(true);
+        return $this->value;
     }
 }
